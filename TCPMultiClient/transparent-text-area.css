@@ -1,0 +1,39 @@
+#pane {
+-fx-background-image: url("background.jpg");
+-fx-background-repeat: stretch;
+-fx-background-size: 600, 400;
+-fx-background-position: center center;
+}
+.text-field {
+	-fx-border-color: grey;
+	-fx-background-color: transparent;
+}
+.button {
+	-fx-border-color: black;
+	-fx-background-color: transparent;
+}
+.text-area {
+	-fx-border-color: grey;
+	-fx-background-color: transparent;
+}
+.text-area .content {
+	-fx-background-color: transparent;
+}
+.text-area .scrollpane {
+	-fx-background-color: transparent;
+}
+.text-area .scrollpane .content {
+	-fx-background-color: transparent;
+}
+.text.area .scrollpane .viewport {
+	-fx-background-color: transparent;
+}
+.text=area:focused {
+	-fx-background-color: transparent;
+}
+.text-area:focused .content {
+	-fx-background-color: transparent;
+}
+.viewport {
+	-fx-background-color: transparent;
+}
